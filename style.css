@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.blog-posts {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.blog-posts .post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #333333;
+    color: white;
+}
+/* Add this to the top of your CSS file to set a light background color */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color for contrast */
+
+
+}
+header {
+    background-color: #4CAF50; /* Green header */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+a {
+    color: #ff6347; /* Tomato red color for links */
+    text-decoration: none; /* Remove the underline */
+}
+
+a:hover {
+    color: #ff4500; /* Darker red when hovering */
+    text-decoration: underline; /* Add underline on hover */
+}
+button {
+    background-color: #008CBA; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding to buttons */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+button:hover {
+    background-color: #005f73; /* Darker blue on hover */
+}
+footer {
+    background-color: #333; /* Dark footer */
+    color: white; /* White text */
+    padding: 10px;
+    text-align: center;
+}
